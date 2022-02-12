@@ -20,15 +20,15 @@
 Удобнее всего создать ярлык и в  его свойствах, в поле `Объект`, после `MumHotDi.exe`*(может быть в кавычках)* через пробел дописать небоходимые аргументы.  
 
 ### Примеры
-* Отключение действия кнопки "Back" на мышке
-  `B:\Dev\AutoHotkey\MumHotDi\MumHotDi.exe XButton1` 
-* Отключение действия кнопки "Back" на мышке и автоматический запуск mumble.exe
+* Отключение действия кнопки "Back" на мышке  
+  `B:\Dev\AutoHotkey\MumHotDi\MumHotDi.exe XButton1`
+* Отключение действия кнопки "Back" на мышке и автоматический запуск mumble.exe  
   `B:\Dev\AutoHotkey\MumHotDi\MumHotDi.exe XButton1 "" "C:\Program Files\Mumble\client\mumble.exe"`
-* PushToTalk на `RWin` 
-  `B:\Dev\AutoHotkey\MumHotDi\MumHotDi.exe RWin F13`
+* PushToTalk на `RWin`  
+  `B:\Dev\AutoHotkey\MumHotDi\MumHotDi.exe RWin F13`  
   *Тут `RWin` мапится на `F13`, __обратите внимание__ после запуска MumHotDi надо зайти в Mumble и заново настроить PTT клавишу, нажав `RWin`, у нее будет другой код, тк она мапится на `F13`*
-* PushToTalk на `RCtrl` и автоматический запуск mumble.exe
-  `B:\Dev\AutoHotkey\MumHotDi\MumHotDi.exe RCtrl F13 "C:\Program Files\Mumble\client\mumble.exe"`
+* PushToTalk на `RCtrl` и автоматический запуск mumble.exe  
+  `B:\Dev\AutoHotkey\MumHotDi\MumHotDi.exe RCtrl F13 "C:\Program Files\Mumble\client\mumble.exe"`  
   *Тут `RCtrl` мапится на `F13`. Донастройка PTT в клиенте аналогично предыдущему пункту*
 
 ## Особенности
